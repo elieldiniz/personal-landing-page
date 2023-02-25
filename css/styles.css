@@ -1,22 +1,18 @@
-.section-1 {
-  background-color: #b67d72;
-  background-image: url(/img/bacground.jpg);
-}
-.section-1 .container {
-  display: flex;
-  justify-content: center;
-}
-.section-1 .container .profile {
-  border: silid 2px #b67d72;
-}
-.section-1 .name {
-  display: flex;
-  justify-content: center;
-}
-.section-1 .name p {
-  font-size: 2rem;
-  color: #0b0c0b;
-  cursor: pointer;
-}
+/* Error: expected "{".
+ *    ,
+ * 12 |             git a
+ *    |                  ^
+ *    '
+ *   css\sass\components\section1.scss 12:18  @import
+ *   css\sass\style.scss 3:9                  root stylesheet */
 
-/*# sourceMappingURL=styles.css.map */
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: 'Error: expected "{".\a    \2577 \a 12 \2502              git a\d\a    \2502                   ^\a    \2575 \a   css\\sass\\components\\section1.scss 12:18  @import\a   css\\sass\\style.scss 3:9                  root stylesheet';
+}
