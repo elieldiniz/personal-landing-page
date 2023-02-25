@@ -1,0 +1,22 @@
+.section-1 {
+  background-color: #b67d72;
+  background-image: url(/img/bacground.jpg);
+}
+.section-1 .container {
+  display: flex;
+  justify-content: center;
+}
+.section-1 .container .profile {
+  border: silid 2px #b67d72;
+}
+.section-1 .name {
+  display: flex;
+  justify-content: center;
+}
+.section-1 .name p {
+  font-size: 2rem;
+  color: #0b0c0b;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=styles.css.map */
